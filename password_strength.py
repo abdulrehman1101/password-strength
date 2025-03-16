@@ -78,3 +78,4 @@ if st.button("Check Password Strength"):
         st.markdown(f'<div class="{css_class}">{strength}</div>', unsafe_allow_html=True)
     else:
         st.warning("Please enter a password to check its strength.")
+    
